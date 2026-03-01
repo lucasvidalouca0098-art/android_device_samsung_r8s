@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/samsung/r8s/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common yaap stuff.
 $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
